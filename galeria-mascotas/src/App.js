@@ -7,7 +7,7 @@ function useFetchMascotas() {
 
   useEffect(() => {
     // URl del JSON
-    const PETS_API_URL = 'https://gist.githubusercontent.com/josejbocanegra/829a853c6c68880477697acd0490cecc/raw/99c31372b4d419a855e53f0e891246f313a71b20/mascotas.json';
+    const PETS_API_URL = 'https://gist.githubusercontent.com/josejbocanegra/829a853c6c68880477697acd0490cecc/raw/4eb2d8431a0253f764dad867decc592038e80cac/mascotas.json';
 
     const fetchMascotas = async () => {
       try {
