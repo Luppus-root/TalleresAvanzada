@@ -1,0 +1,25 @@
+.robot-table-container {
+    margin: 20px 0;
+}
+
+.robot-table {
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.robot-table tbody tr {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.robot-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.robot-table tbody tr.selected-row {
+    background-color: #e7f1ff;
+}
+
+.robot-name {
+    font-weight: 600;
+    color: #0d6efd; }

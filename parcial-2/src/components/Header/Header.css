@@ -1,0 +1,28 @@
+.app-header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    border-bottom: 1px solid #dee2e6;
+    width: 100%;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    text-align: center;
+    color: #0d6efd;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 1.5rem;
+    } }

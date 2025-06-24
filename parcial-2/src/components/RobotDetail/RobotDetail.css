@@ -1,0 +1,50 @@
+.robot-detail-container {
+    position: sticky;
+    top: 20px;
+}
+
+.robot-card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.image-container {
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.robot-card img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.robot-title {
+    font-size: 1.8rem;
+    color: #0d6efd;
+    margin-bottom: 1rem;
+}
+
+.robot-details .list-group-item {
+    padding: 10px 15px;
+}
+
+.personality {
+    font-style: italic;
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .robot-detail-container {
+        margin-top: 20px;
+        position: static;
+    }
+
+    .image-container {
+        height: 200px;
+    } }
